@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body{
+  color: #fff;
+  background: #504d4d
+}
+
+main{
+  background: #504d4d;
+  height: 100vh;
+  height: 100dvh;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  background-color: #184074;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
